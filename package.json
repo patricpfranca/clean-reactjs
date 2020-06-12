@@ -4,7 +4,11 @@
   "main": "index.js",
   "author": "Patric Pereira <patric.pereirafranca@gmail.com>",
   "license": "MIT",
+  "scripts": {
+    "test": "jest"
+  },
   "devDependencies": {
+    "@types/jest": "^26.0.0",
     "@types/node": "^14.0.13",
     "@typescript-eslint/eslint-plugin": "^3.2.0",
     "eslint": "^7.2.0",
@@ -15,7 +19,9 @@
     "eslint-plugin-standard": "^4.0.1",
     "git-commit-msg-linter": "^2.4.2",
     "husky": "^4.2.5",
+    "jest": "^26.0.1",
     "lint-staged": "^10.2.10",
+    "ts-jest": "^26.1.0",
     "typescript": "^3.9.5"
   }
 }
